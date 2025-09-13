@@ -8,7 +8,7 @@
     font-family: Inter;
         src: local("Inter-SemiBold"),
         local("Inter SemiBold"),
-        url("../fonts/Inter-SemiBold.ttf") format("TrueType"); 
+        url("../fonts/Inter-SemiBold.ttf") format("TrueType");
     font-weight: 600;
 }
 
@@ -354,4 +354,94 @@
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+.crm__functional-wrapper {
+    border-radius: 8px;
+    
+}
+.crm__table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    
+}
+
+.crm-wrapper {
+    box-shadow: 9px 9px 9px 0 rgba(0, 0, 0, .2);
+}
+.crm__table-header {
+    font-size: 12px;
+    line-height: calc(15 /12);
+    font-weight: 600;
+    letter-spacing: calc(1em / 20);
+    color: var(--primary-color-grey);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 15px 15px;
+    background-color: var(--primary-color-dark-white);
+}
+.crm__table-data {
+    border-bottom: 1px solid var(--primary-color-border);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(17 / 14);
+    color: var(--primary-color-light-black);
+    padding: 21px 15px;
+    text-align: left;
+    background-color: var(--primary-color-white);
+}
+
+.crm__table-data_last-unit {
+    border-bottom: none;
+}
+
+.crm__table-data_quantly-color {
+    color: var(--primary-color-grey);
+    text-align: center;
+}
+
+.crm__table-data_quantly-position {
+    text-align: center;
+    /* width: 120px; */
+}
+
+.footer__crm-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 15px 20px 15px 0px;
+    box-shadow: 9px 9px 9px 0 rgba(0, 0, 0, .2);
+    background-color: var(--primary-color-dark-white);
+    gap: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .05em;
+    border-radius: 8px;
+
+}
+
+.footer__count-wrapper {
+    display: flex;
+}
+.footer__page-button {
+    color:var(--primary-color-grey);
+    display: flex;
+    gap: 50px;
+}
+
+.footer__scroll-button {
+    color:var(--primary-color-grey);
+    
+    
+}
+.footer__product-number {
+    color:var(--primary-color-grey);
+}
+
+.footer__count-number {
+    margin-left: 6px;
+}
+.footer__count-button {
+    margin-left: 5px;
 }
