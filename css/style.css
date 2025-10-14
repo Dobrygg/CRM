@@ -421,8 +421,9 @@
 
 }
 
-.footer__count-wrapper {
+.footer__list {
     display: flex;
+    gap: 50px;
 }
 .footer__page-button {
     color:var(--primary-color-grey);
@@ -430,6 +431,11 @@
     gap: 50px;
 }
 
+.footer__item-text {
+    display: flex;
+    
+    gap: 5px;
+}
 .footer__scroll-button {
     color:var(--primary-color-grey);
     
