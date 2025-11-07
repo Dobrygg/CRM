@@ -448,6 +448,120 @@
 .footer__count-number {
     margin-left: 6px;
 }
+
 .footer__count-button {
     margin-left: 5px;
 }
+
+@media(max-width: 852px){
+
+    .modal__form-wrapper {
+        padding: 12px 86px 19px;
+        max-width: 582px;
+    }
+
+    .modal__button-input {
+        font-size: 9px;
+        padding: 9px 20px;
+    }
+    .modal__form-text {
+        line-height: calc(14 / 11);
+        font-size: 10px;
+    }
+
+    .modal__price {
+        font-size: 13px;
+        line-height: calc(16.94 / 14);
+    }
+
+    .modal__price-span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(18.78 / 18);
+    }
+    .modal__button {
+    padding: 8px 13px;
+    font-size: 10px;
+    line-height: calc(16 / 13);
+}
+
+
+    .modal__button-wrapper {
+    padding: 0 10px;
+    }
+    
+    .modal__form-label {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 590px){
+
+    .modal__form-wrapper {
+        padding: 12px 86px 19px;
+        max-width: 582px;
+    }
+
+    .modal__button-input {
+        font-size: 9px;
+        padding: 9px 20px;
+    }
+    .modal__form-text {
+        line-height: calc(14 / 11);
+        font-size: 10px;
+    }
+
+    .modal__price {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: calc(16.94 / 14);
+    }
+
+    .modal__price-span {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: calc(16.94 / 14);
+    }
+
+    .modal__button {
+    padding: 5px 14px;
+    font-size: 8px;
+    line-height: calc(13 / 10);
+}
+
+
+    .modal__button-wrapper {
+    padding: 0;
+    }
+    
+    .modal__title {
+        font-size: 16px;
+    }
+    .modal__form-label {
+        font-size: 9px;
+    }
+    .modal__form-input {
+        padding: 2px;
+        max-height: 81px;
+    }
+    .modal__form-checkbox:before {
+        height: 28px;
+        width: 28px;
+    }
+    .modal__form-checkbox:after {
+        top: 5px;
+        left: 5px;
+    }
+    .modal__checkbox-wrapper {
+        padding-left: 37px
+    }
+
+    .modal__form-label {
+        font-size: 7px;
+    }
+
+    .modal__form-text {
+        font-size: 7px;
+    }
+}
+
