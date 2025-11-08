@@ -403,7 +403,6 @@
 
 .crm__table-data_quantly-position {
     text-align: center;
-    /* width: 120px; */
 }
 
 .footer__crm-wrapper {
@@ -498,7 +497,7 @@
 @media(max-width: 590px){
 
     .modal__form-wrapper {
-        padding: 12px 86px 19px;
+        padding: 12px 36px 19px;
         max-width: 582px;
     }
 
@@ -545,15 +544,15 @@
         max-height: 81px;
     }
     .modal__form-checkbox:before {
-        height: 28px;
-        width: 28px;
+        height: 26px;
+        width: 26px;
     }
     .modal__form-checkbox:after {
         top: 5px;
         left: 5px;
     }
     .modal__checkbox-wrapper {
-        padding-left: 37px
+        padding-left: 30px
     }
 
     .modal__form-label {
@@ -565,3 +564,10 @@
     }
 }
 
+@media(max-width: 405px){
+
+    .modal__form-wrapper {
+        padding: 12px 6px 19px;
+    }
+
+}
