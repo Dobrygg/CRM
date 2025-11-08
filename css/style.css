@@ -497,8 +497,13 @@
 @media(max-width: 590px){
 
     .modal__form-wrapper {
-        padding: 12px 36px 19px;
+        padding: 12px 76px 19px;
         max-width: 582px;
+    }
+
+    .modal__text-wrapper {
+        min-width: fit-content;
+        justify-content: space-between;
     }
 
     .modal__button-input {
@@ -564,10 +569,31 @@
     }
 }
 
-@media(max-width: 405px){
+@media(max-width: 470px){
 
     .modal__form-wrapper {
-        padding: 12px 6px 19px;
+        padding: 19px 12px 19px 12px;
     }
+    .modal__text-wrapper {
+        padding-bottom: 10px;
+        max-width: 380px;
+    }
+    .modal__title {
+        padding: 12px;
+        font-size: 12px;
+    }
+    .modal__button-cancel {
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    border: none;
+}
 
 }
+
+@media(max-width: 470px){
+    .modal__fieldset {
+        padding: 6px;
+    }
+}
+
