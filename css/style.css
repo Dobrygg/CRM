@@ -452,7 +452,52 @@
     margin-left: 5px;
 }
 
-@media(max-width: 852px){
+
+@media(max-width: 1100px){
+    .crm__table-header {
+    font-size: 11px;
+    padding: 15px 5px;
+} 
+
+
+    .crm__table-data {
+        padding: 21px 10px;
+        font-size: 12px;
+    }
+    .crm__table-img {
+        min-width: 14px;
+    }
+    .modal__button {
+    padding: 10px 14px;
+    font-size: 12px;
+    }
+    .crm__serch-button {
+        padding: 10px;
+        font-size: 13px;
+        line-height: calc(19 / 16);
+    }
+    .crm__table-data {
+        max-width: max-content;
+    }
+}
+@media(max-width: 960px){
+    .modal__button {
+        min-width: 140px;
+        
+    }
+
+    .crm__functional-wrapper {
+        gap: 8px;    
+    }
+    .crm__serch-svg {
+        min-width: 16px;
+    }
+    .crm__serch-button  {
+        gap: 5px;
+    }
+}
+
+@media(max-width: 888px){
 
     .modal__form-wrapper {
         padding: 12px 86px 19px;
@@ -492,8 +537,46 @@
     .modal__form-label {
         font-size: 10px;
     }
+    .crm__table-data {
+        font-size: 8px;
+    }
+    .crm__table-header {
+        font-size: 8px;
+    }
+    .crm__table-data {
+        padding: 20px 6px;
+    }
+    .crm__serch-input {
+        font-size: 9px;
+    }
+    .crm__table-img {
+        max-width: 6px;
+    }
+    .crm__table-data {
+        padding: 20px 3px;
+        font-size: 5px;
+    }
+    .crm__table-header{
+        font-size: 5px;
+    }
+    .modal__button{
+        min-width: 95px;
+        padding: 12px 9px;
+        font-size: 7px;
+        line-height: calc(16 / 13);
+    }
+    .crm__table-img {
+        max-height: 5px;
+    }
+    .footer__crm-wrapper {
+        font-size: 8px;
+        padding: 15px 5px 15px 0px
+    }
+    .footer__list {
+        gap: 40px;
+    }
+    
 }
-
 @media(max-width: 590px){
 
     .modal__form-wrapper {
@@ -545,16 +628,20 @@
         font-size: 9px;
     }
     .modal__form-input {
-        padding: 2px;
+        padding: 4px;
         max-height: 81px;
+        font-size: 9px;
     }
+
     .modal__form-checkbox:before {
-        height: 26px;
-        width: 26px;
+        height: 20px;
+        width: 25px;
     }
     .modal__form-checkbox:after {
-        top: 5px;
-        left: 5px;
+        top: 3px;
+        left: 4px;
+        width: 17px;
+        height: 10px;
     }
     .modal__checkbox-wrapper {
         padding-left: 30px
@@ -567,9 +654,34 @@
     .modal__form-text {
         font-size: 7px;
     }
+    .crm__table-data {
+        padding: 20px 1px;
+        font-size: 3px;
+    }
+    .crm__table-header{
+        font-size: 3px;
+    }
+    .modal__button{
+        min-width: 45px;
+        padding: 8px 4px;
+        font-size: 5px;
+    }
+    .crm__functional-wrapper {
+        padding: 10px 6px;
+    }
+    .crm__serch-text {
+        font-size: 8px;
+    }
+    .footer__crm-wrapper {
+        font-size: 7px;
+        padding: 15px 2px 15px 0px
+    }
+    .footer__list {
+        gap: 15px;
+    }
 }
 
-@media(max-width: 470px){
+@media(max-width: 482px){
 
     .modal__form-wrapper {
         padding: 19px 12px 19px 12px;
@@ -588,6 +700,21 @@
     right: 20px;
     border: none;
 }
+.footer__crm-wrapper {
+        font-size: 5px;
+        padding: 15px 1px 15px 0px
+    }
+    .footer__list {
+        gap: 10px;
+    }
+    .footer__scroll-button {
+        max-height: 5px;
+        max-width: 5px;
+    }
+    .footer__svg {
+        max-height: 5px;
+        max-width: 5px;
+    }
 
 }
 
