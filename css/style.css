@@ -290,8 +290,10 @@
 }
 
 .crm-section {
-    padding: 79px 100px 120px;
     background-color: var(--primary-color-light-grey);
+}
+.crm-wrapper {
+    padding: 0px 70px 120px;
 }
 
 
@@ -301,13 +303,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 8px;
+    border-bottom-right-radius: initial;
+    border-bottom-left-radius: initial;
 }
+
 .crm__text-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 0 20px;
-    padding-bottom: 7px;
+    padding: 79px 20px 7px;
     border-bottom: 1px solid var(--primary-color-dark-grey);
 }
 
@@ -356,10 +362,7 @@
     left: 10px;
 }
 
-.crm__functional-wrapper {
-    border-radius: 8px;
-    
-}
+
 .crm__table {
     width: 100%;
     border-collapse: collapse;
@@ -528,8 +531,7 @@
         padding: 8px 13px;
         font-size: 10px;
         line-height: calc(16 / 13);
-}
-
+    }
 
     .modal__button-wrapper {
     padding: 0 10px;
@@ -575,6 +577,10 @@
     .crm__table-img {
         max-height: 5px;
     }
+    .crm-wrapper {
+    padding: 0px 0px 40px;
+    }
+
     .footer__crm-wrapper {
         font-size: 8px;
         padding: 15px 5px 15px 0px
@@ -701,6 +707,9 @@
     .modal__price {
         font-size: 8px;
     }
+    .crm-wrapper {
+    padding: 0px 0px 20px;
+    }
 }
 
 @media(max-width: 482px){
@@ -738,8 +747,14 @@
         max-width: 5px;
     }
     .crm-section {
-    padding: 79px 19px 120px;
-}
+    padding: 0;
+    }
+    .crm__text-wrapper {
+        padding: 10px 20px 7px;
+    }
+    .crm-wrapper {
+    padding: 0px;
+    }
 
 }
 
