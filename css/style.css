@@ -369,6 +369,7 @@
 
 .crm-wrapper {
     box-shadow: 9px 9px 9px 0 rgba(0, 0, 0, .2);
+    border-radius: 7px;
 }
 .crm__table-header {
     font-size: 12px;
@@ -519,14 +520,14 @@
     }
 
     .modal__price-span {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: calc(18.78 / 18);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(18.78 / 18);
     }
     .modal__button {
-    padding: 8px 13px;
-    font-size: 10px;
-    line-height: calc(16 / 13);
+        padding: 8px 13px;
+        font-size: 10px;
+        line-height: calc(16 / 13);
 }
 
 
@@ -547,8 +548,14 @@
         padding: 20px 6px;
     }
     .crm__serch-input {
-        font-size: 9px;
+        font-size: 5px;
     }
+    .crm__serch-icon {
+        max-width: 12px;
+        max-height: 12px;
+        top: 10px;
+        left: 5px;
+}
     .crm__table-img {
         max-width: 6px;
     }
@@ -574,6 +581,15 @@
     }
     .footer__list {
         gap: 40px;
+    }
+    .crm__serch-button  {
+        gap: 1px;
+        padding: 2px;
+        font-size: 8px;
+    }
+    .crm__serch-svg {
+        max-width: 11px;
+        max-height: 11px;
     }
     
 }
@@ -679,6 +695,12 @@
     .footer__list {
         gap: 15px;
     }
+    .crm-title {
+        font-size: 15px;
+    }
+    .modal__price {
+        font-size: 8px;
+    }
 }
 
 @media(max-width: 482px){
@@ -699,8 +721,8 @@
     top: 6px;
     right: 20px;
     border: none;
-}
-.footer__crm-wrapper {
+    }
+    .footer__crm-wrapper {
         font-size: 5px;
         padding: 15px 1px 15px 0px
     }
@@ -715,6 +737,9 @@
         max-height: 5px;
         max-width: 5px;
     }
+    .crm-section {
+    padding: 79px 19px 120px;
+}
 
 }
 
