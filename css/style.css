@@ -563,7 +563,7 @@
     }
     .crm__table-data {
         padding: 20px 3px;
-        font-size: 5px;
+        font-size: 8px;
     }
     .crm__table-header{
         font-size: 5px;
@@ -678,7 +678,7 @@
     }
     .crm__table-data {
         padding: 20px 1px;
-        font-size: 3px;
+        font-size: 6px;
     }
     .crm__table-header{
         font-size: 3px;
@@ -730,6 +730,8 @@
     top: 6px;
     right: 20px;
     border: none;
+    max-width: 15px;
+    max-height: 15px;
     }
     .footer__crm-wrapper {
         font-size: 5px;
