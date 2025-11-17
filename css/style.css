@@ -724,7 +724,7 @@
     }
     .modal__error-window {
         top: 114px;
-        left: 157px;
+        left: 30%;
         max-width: 195px;
         max-height: 230px;
     }
