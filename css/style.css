@@ -600,7 +600,7 @@
     .modal__error-window {
     position: absolute;
     top: 132px;
-    left: 142px;
+    left: 25%;
     max-width: 295px;
     max-height: 295px;
 }
@@ -730,7 +730,7 @@
     }
 }
 
-@media(max-width: 482px){
+@media(max-width: 492px){
 
     .modal__form-wrapper {
         padding: 19px 12px 19px 12px;
@@ -776,7 +776,7 @@
     padding: 0px;
     }
     .modal__error-window {
-        left: 100px;
+        left: 15%;
     }
 
 }
@@ -786,7 +786,7 @@
         padding: 6px;
     }
     .modal__error-window {
-        left: 56px;
+        left: 15%;
         max-width: 189px;
     }
 }
