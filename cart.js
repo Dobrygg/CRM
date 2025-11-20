@@ -41,10 +41,11 @@ cart.print();
 console.log(cart.calculateltemPrice());
 
 
-const heading = document.querySelector('#modal__title');
-const cancel = document.querySelector('#modal__button-cancel');
-const id = document.querySelector('#modal__text-id');
-const form = document.querySelector('#modal__form');
-const checkbox= document.querySelector('#modal__form-checkbox');
-const checkboxInput= document.querySelector('#modal__form-input');
-const price = document.querySelector('#modal__price');
+const heading = document.querySelector('.modal__title');
+const cancel = document.querySelector('.modal__button-cancel');
+const id = document.querySelector('.modal__text-id');
+const form = document.querySelector('.modal__form');
+const checkbox= document.querySelector('.modal__form-checkbox');
+const checkboxInput= document.querySelector('.modal__form-input');
+const price = document.querySelector('.modal__price');
+console.log(heading)
